@@ -6,7 +6,7 @@ Reproduction for [Renovate issue 34095](https://github.com/renovatebot/renovate/
 
 Renovate is throwing the following error in the [Dependency Dashboard](https://github.com/steled/argocd-apps/issues/1).
 
-============================================================================================
+===========================================================================
 
 ## Repository problems
 Renovate tried to run on this repository, but found these problems.
@@ -19,7 +19,7 @@ These updates encountered an error and will be retried. Click on a checkbox belo
 
 - Pin sftp-image Docker tag to 85ff1a7
 
-============================================================================================
+===========================================================================
 
 ## Expected behavior
 
