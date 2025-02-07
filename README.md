@@ -8,12 +8,12 @@ Renovate is throwing the following error in the [Dependency Dashboard](https://g
 
 ===========================================================================
 
-## Repository problems
+### Repository problems
 Renovate tried to run on this repository, but found these problems.
 
 - WARN: Error updating branch: update failure
 
-## Errored
+### Errored
 
 These updates encountered an error and will be retried. Click on a checkbox below to force a retry now.
 
