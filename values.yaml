@@ -1,0 +1,2 @@
+# renovate: datasource=docker depName=sftp-image packageName=atmoz/sftp
+version: "sha256:85ff1a7742f7f28f1ce49d27ab659798244a8ae2e81ef3a0457b6733d0caecdc"
