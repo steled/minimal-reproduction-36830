@@ -13,7 +13,7 @@
       "customType": "regex",
       "datasourceTemplate": "docker",
       "fileMatch": [
-        "(^|/)apps/values\\.yaml$"
+        "(^|/)values\\.yaml$"
       ],
       "matchStrings": [
         "\\s*# renovate: depName=(?<depName>[^\\s]+?)(?: (?:packageName)=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[^\\s]+?))?(?: extractVersion=(?<extractVersion>[^\\s]+?))?(?: registryUrl=(?<registryUrl>[^\\s]+?))?\\s+[A-Za-z0-9_]+?_(VERSION|version)\\s*:*\\??=\\s*[\"']?(?<currentValue>.+?)(?<currentDigest>sha256:[a-f0-9]+)[\"']?\\s"
