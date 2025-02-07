@@ -1,0 +1,14 @@
+{
+  "assigneesFromCodeOwners": true,
+  "branchConcurrentLimit": 3,
+  "branchPrefix": "renovate/",
+  "gitAuthor": "steled <34886888+steled@users.noreply.github.com>",
+  "onboarding": false,
+  "platform": "github",
+  "prConcurrentLimit": 10,
+  "prHourlyLimit": 10,
+  "repositories": [
+    "steled/minimal-reproduction-34095"
+  ],
+  "username": "steled"
+}
