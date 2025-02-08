@@ -5,7 +5,7 @@ version: "alpine@sha256:85ff1a7742f7f28f1ce49d27ab659798244a8ae2e81ef3a0457b6733
 version: "v24.11.1"
 
 # renovate: datasource=helm depName=minio registryUrl=https://charts.min.io/
-version: "5.2.0"
+version: "5.4.0"
 
 # renovate: datasource=docker depName=datadog_agent packageName=datadog/agent
 version: "7.62.0@sha256:5b144843b1a5e48f62391db705a3ae5914f32998ec392969b2faf42a08e85494"
