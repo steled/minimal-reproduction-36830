@@ -2,4 +2,4 @@
 version: "alpine@sha256:85ff1a7742f7f28f1ce49d27ab659798244a8ae2e81ef3a0457b6733d0caecdc"
 
 # renovate: datasource=docker depName=node packageName=node
-version: "node@sha256:fa54405993eaa6bab6b6e460f5f3e945a2e2f07942ba31c0e297a7d9c2041f62"
+version: "node:22.13.0@sha256:fa54405993eaa6bab6b6e460f5f3e945a2e2f07942ba31c0e297a7d9c2041f62"
