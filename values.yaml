@@ -2,4 +2,4 @@
 version: "alpine@sha256:85ff1a7742f7f28f1ce49d27ab659798244a8ae2e81ef3a0457b6733d0caecdc"
 
 # renovate: datasource=docker depName=node packageName=datadog/agent
-version: "7.62.0@sha256:5b144843b1a5e48f62391db705a3ae5914f32998ec392969b2faf42a08e85494"
+version: "7.62.1@sha256:f2c18813dba699d5c6700582eb4a03dcc2cdb4e23bf289d3fb258e94e3d85020"
