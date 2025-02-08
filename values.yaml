@@ -1,5 +1,8 @@
 # renovate: datasource=docker depName=sftp-image packageName=atmoz/sftp
 version: "alpine@sha256:85ff1a7742f7f28f1ce49d27ab659798244a8ae2e81ef3a0457b6733d0caecdc"
 
-# renovate: datasource=docker depName=node packageName=datadog/agent
+# renovate: datasource=docker depName=datadog_agent packageName=datadog/agent
 version: "7.62.0@sha256:5b144843b1a5e48f62391db705a3ae5914f32998ec392969b2faf42a08e85494"
+
+# renovate: datasource=docker depName=jdownloader-2 packageName=jlesage/jdownloader-2
+version: "v24.12.1"
