@@ -52,7 +52,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "matchPackageNames": ["atmoz/sftp"],
+      "matchPackageNames": ["atmoz/sftp", "datadog/agent"],
       "pinDigests": true
     }
   ]
