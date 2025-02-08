@@ -5,4 +5,4 @@ version: "alpine@sha256:85ff1a7742f7f28f1ce49d27ab659798244a8ae2e81ef3a0457b6733
 version: "v24.11.1"
 
 # renovate: datasource=helm depName=minio registryUrl=https://charts.min.io/
-version: "5.4.0"
+version: "5.2.0"
