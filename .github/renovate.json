@@ -11,6 +11,16 @@
   "customManagers": [
     {
       "customType": "regex",
+      "datasourceTemplate": "helm",
+      "fileMatch": [
+        "(^|/)apps/values\\.yaml$"
+      ],
+      "matchStrings": [
+        "\\s*# renovate: depName=(?<depName>[^\\s]+?)(?: (?:packageName)=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[^\\s]+?))?(?: extractVersion=(?<extractVersion>[^\\s]+?))?(?: registryUrl=(?<registryUrl>[^\\s]+?))?\\s+[A-Za-z0-9_]+?_(VERSION|version)\\s*:*\\??=\\s*[\"']?(?<currentValue>.+?)[\"']?\\s"
+      ]
+    },
+    {
+      "customType": "regex",
       "fileMatch": [
         "(^|/)values\\.yaml$"
       ],
