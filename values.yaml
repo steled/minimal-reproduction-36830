@@ -8,4 +8,4 @@ version: "v24.11.1"
 version: "5.2.0"
 
 # renovate: datasource=docker depName=datadog_agent packageName=datadog/agent
-version: "7.62.0@sha256:5b144843b1a5e48f62391db705a3ae5914f32998ec392969b2faf42a08e85494"
+version: "7.62.3@sha256:005d5261a2a9073da11019e1eec6997aa4aa1c70d2e82716c30da0733265a3a2"
