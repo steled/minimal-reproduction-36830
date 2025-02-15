@@ -13,7 +13,7 @@
       "customType": "regex",
       "datasourceTemplate": "helm",
       "fileMatch": [
-        "(^|/)apps/values\\.yaml$"
+        "(^|/)values\\.yaml$"
       ],
       "matchStrings": [
         "\\s*# renovate: depName=(?<depName>[^\\s]+?)(?: (?:packageName)=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[^\\s]+?))?(?: extractVersion=(?<extractVersion>[^\\s]+?))?(?: registryUrl=(?<registryUrl>[^\\s]+?))?\\s+[A-Za-z0-9_]+?_(VERSION|version)\\s*:*\\??=\\s*[\"']?(?<currentValue>.+?)[\"']?\\s"
@@ -27,6 +27,17 @@
       "matchStrings": [
         "\\s*# renovate: datasource=(?<datasource>[a-z-.]+?) depName=(?<depName>[^\\s]+?)(?: (?:packageName)=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[^\\s]+?))?(?: extractVersion=(?<extractVersion>[^\\s]+?))?(?: registryUrl=(?<registryUrl>[^\\s]+?))?\\s+([A-Za-z0-9_]+?_)?(VERSION|version)\\s*(:|=)\\s*[\"']?(?<currentValue>[^\\s@]+)(@(?<currentDigest>sha256:[0-9a-f]+))?[\"']?\\s"
       ]
+    },
+    {
+      "customType": "regex",
+      "datasourceTemplate": "docker",
+      "fileMatch": [
+        "(^|/)values\\.yaml$"
+      ],
+      "matchStrings": [
+        "\\s*# renovate: depName=(?<depName>[^\\s]+?)(?: (?:packageName)=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[^\\s]+?))?(?: extractVersion=(?<extractVersion>[^\\s]+?))?(?: registryUrl=(?<registryUrl>[^\\s]+?))?\\s+([A-Za-z0-9_]+?_)?(VERSION|version)\\s*(:|=)\\s*[\"']?(?<currentValue>.+?)[\"']?\\s"
+      ],
+      "versioningTemplate": "docker"
     }
   ],
   "packageRules": [
