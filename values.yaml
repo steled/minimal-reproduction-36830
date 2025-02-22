@@ -1,5 +1,5 @@
 # renovate: datasource=docker depName=sftp-image packageName=atmoz/sftp
-version: "alpine@sha256:85ff1a7742f7f28f1ce49d27ab659798244a8ae2e81ef3a0457b6733d0caecdc"
+version: "alpine@sha256:93d2d9c0e8e3d619e01321bd0eabaf746c9700115f92db5038d2d54b277ed22f"
 
 # renovate: datasource=docker depName=jdownloader-2 packageName=jlesage/jdownloader-2
 version: "v24.11.1"
