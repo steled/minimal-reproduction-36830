@@ -2,7 +2,6 @@
   "assigneesFromCodeOwners": true,
   "branchConcurrentLimit": 3,
   "branchPrefix": "renovate/",
-  "gitAuthor": "github-actions[bot]@users.noreply.github.com",
   "onboarding": false,
   "platform": "github",
   "prConcurrentLimit": 10,
@@ -10,5 +9,5 @@
   "repositories": [
     "steled/minimal-reproduction-34095"
   ],
-  "username": "github-actions[bot]"
+  "username": "steled"
 }
