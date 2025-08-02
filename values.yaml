@@ -1,11 +1,2 @@
 # renovate: datasource=docker depName=sftp-image packageName=atmoz/sftp
 version: "alpine@sha256:d8f111337a1b49755f8ca1c971c672e5baa1167c8332393dfa4cdf2a08bbacaa"
-
-# renovate: datasource=docker depName=jdownloader-2 packageName=jlesage/jdownloader-2
-version: "v24.11.1"
-
-# renovate: datasource=helm depName=minio registryUrl=https://charts.min.io/
-version: "5.2.0"
-
-# renovate: datasource=docker depName=datadog_agent packageName=datadog/agent
-version: "7.62.0@sha256:5b144843b1a5e48f62391db705a3ae5914f32998ec392969b2faf42a08e85494"
