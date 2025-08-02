@@ -87,3 +87,7 @@ DEBUG: Invalid manifest response (repository=steled/argocd-apps, baseBranch=main
 DEBUG: getManifestResponse(https://index.docker.io, atmoz/sftp, alpine, head) (repository=steled/argocd-apps, baseBranch=main)
 DEBUG: http cache: saving https://index.docker.io/v2/atmoz/sftp/manifests/alpine (etag="sha256:93d2d9c0e8e3d619e01321bd0eabaf746c9700115f92db5038d2d54b277ed22f", lastModified=undefined) (repository=steled/argocd-apps, baseBranch=main)
 ```
+
+## Link to the Renovate issue or Discussion
+
+https://github.com/renovatebot/renovate/discussions/36830
