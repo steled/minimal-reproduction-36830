@@ -2,7 +2,7 @@
 version: "alpine@sha256:d8f111337a1b49755f8ca1c971c672e5baa1167c8332393dfa4cdf2a08bbacaa"
 
 # renovate: datasource=docker depName=jdownloader-2 packageName=jlesage/jdownloader-2
-version: "v24.11.1"
+version: "v25.07.2"
 
 # renovate: datasource=helm depName=minio registryUrl=https://charts.min.io/
 version: "5.2.0"
