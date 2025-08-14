@@ -1,24 +1,5 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "baseBranches": [
-    "main"
-  ],
-  "dependencyDashboard": true,
-  "labels": ["dependencies"],
-  "enabledManagers": [
-    "custom.regex"
-  ],
   "customManagers": [
-    {
-      "customType": "regex",
-      "datasourceTemplate": "helm",
-      "fileMatch": [
-        "(^|/)values\\.yaml$"
-      ],
-      "matchStrings": [
-        "\\s*# renovate: depName=(?<depName>[^\\s]+?)(?: (?:packageName)=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[^\\s]+?))?(?: extractVersion=(?<extractVersion>[^\\s]+?))?(?: registryUrl=(?<registryUrl>[^\\s]+?))?\\s+([A-Za-z0-9_]+?_)?(VERSION|version)\\s*:*\\??=\\s*[\"']?(?<currentValue>.+?)[\"']?\\s"
-      ]
-    },
     {
       "customType": "regex",
       "fileMatch": [
@@ -30,15 +11,6 @@
     }
   ],
   "packageRules": [
-    {
-      "matchManagers": ["custom.regex"],
-      "separateMinorPatch": true
-    },
-    {
-      "matchManagers": ["custom.regex"],
-      "matchUpdateTypes": ["patch", "pinDigest"],
-      "automerge": true
-    },
     {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["atmoz/sftp", "datadog/agent"],
